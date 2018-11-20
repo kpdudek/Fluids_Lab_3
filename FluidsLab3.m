@@ -60,9 +60,9 @@ cd_theory = 24/Re;
 
 function plot_drags(re,cd,cdT)
 figure
-plot(re(1),cd(1),'.',re(2),cd(2),'.',re(3),cd(3),'.',re(4),cd(4),'.')
+loglog(re(1),cd(1),'.',re(2),cd(2),'.',re(3),cd(3),'.',re(4),cd(4),'.','MarkerSize',20)
 hold on 
-%loglog(re(1),cdT(1),re(2),cdT(2),re(3),cdT(3),re(4),cdT(4))
+loglog(re,cdT,'LineWidth',1.5)
 
 
 
