@@ -1,5 +1,4 @@
 function FluidsLab3
-cd C:\Users\kpdud\Fluids_Lab_3
 close all
 clear
 clc
