@@ -90,7 +90,7 @@ plot(thetas(:,3),dimensionless_P(:,3),'b.',thetas(:,4),dimensionless_P(:,4),'g.'
 hold on
 plot(thetas(:,3),theoretical_P(:,3),'r')
 
-legend('Re = 1.120e^{2}','Re = 1.120e^{3}','Theoretical Value','Location','northeast')
+legend('Re = 1.120e^{2}','Re = 1.120e^{3}','Theoretical Value','Location','southeast')
 title('$\displaystyle\frac{\Delta P}{\mu U \frac{1}{a}}$ vs $\theta$ for Water','interpreter','latex')
 ylabel('$\displaystyle\frac{\Delta P}{\mu U \frac{1}{a}}$','interpreter','latex')
 xlabel('$\theta$','interpreter','latex')
